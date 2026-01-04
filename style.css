@@ -422,6 +422,23 @@ h1.glitch {
     border-color: var(--secondary-color);
 }
 
+.course-skills {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.course-skills li {
+    background: rgba(0, 240, 255, 0.1);
+    border: 1px solid rgba(0, 240, 255, 0.2);
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    color: #fff;
+}
+
 .course-icon {
     font-size: 3rem;
     margin-bottom: 1.5rem;
