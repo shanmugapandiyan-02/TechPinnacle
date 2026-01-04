@@ -651,40 +651,52 @@ footer {
     /* Slightly smaller to fit two */
 }
 
-/* Stats Section (New Innovation) */
+/* Stats Section (Renamed to Career Accelerator) */
 .stats-section {
-    padding: 3rem 0;
-    background: linear-gradient(90deg, rgba(0, 240, 255, 0.05), rgba(0, 119, 255, 0.1));
+    padding: 4rem 0;
+    background: linear-gradient(90deg, rgba(0, 240, 255, 0.02), rgba(0, 119, 255, 0.05));
     border-top: 1px solid var(--glass-border);
     border-bottom: 1px solid var(--glass-border);
-    margin-top: -2rem;
-    /* Pull up closer to courses */
+    margin-top: 2rem;
     margin-bottom: 4rem;
 }
 
 .stats-grid {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
     text-align: center;
 }
 
-.stat-item h3 {
+.feature-item {
+    padding: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.feature-item:hover {
+    transform: translateY(-5px);
+}
+
+.feature-item i {
     font-size: 3rem;
-    color: var(--text-color);
-    margin-bottom: 0.5rem;
-    background: linear-gradient(135deg, #fff, var(--primary-color));
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
-.stat-item p {
+.feature-item h3 {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+}
+
+.feature-item p {
     color: var(--text-muted);
-    font-size: 1.1rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    text-transform: none;
 }
 
 /* Response */
