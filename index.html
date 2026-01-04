@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechPinnacle - Master the Future of Code</title>
+    <meta name="description"
+        content="TechPinnacle: The premier coding school for aspiring developers. Master Python, Web Development, and AI in a modern, immersive environment.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@300;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Tech<span class="highlight">Pinnacle</span>_</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#features">Why Us</a></li>
+                <li><a href="#contact" class="btn-primary">Enroll Now</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="hero-bg-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="glitch" data-text="Elevate Your Code">Elevate Your Code</h1>
+            <p class="subtitle">Join the elite coding academy designed for the future. <br>Master the language of
+                innovation.</p>
+            <div class="cta-group">
+                <a href="#courses" class="btn-primary">Explore Courses <i class="fas fa-arrow-right"></i></a>
+                <a href="#about" class="btn-secondary">Learn More</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>The Pinnacle of <span class="text-gradient">EdTech</span></h2>
+                <div class="line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-card glass">
+                    <i class="fas fa-code"></i>
+                    <h3>Practical Learning</h3>
+                    <p>Forget dry theory. Build real-world applications from day one with our project-based curriculum.
+                    </p>
+                </div>
+                <div class="about-card glass">
+                    <i class="fas fa-brain"></i>
+                    <h3>Industry Experts</h3>
+                    <p>Learn directly from senior engineers who have shaped the tech landscape at top Silicon Valley
+                        firms.</p>
+                </div>
+                <div class="about-card glass">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Career Launchpad</h3>
+                    <p>We don't just teach code; we build careers. Resume reviews, mock interviews, and job placement
+                        assistance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="section courses-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our <span class="text-gradient">Curriculum</span></h2>
+                <div class="line"></div>
+                <p class="section-subtitle">Tailored learning paths for every stage of your journey.</p>
+            </div>
+
+            <div class="tabs-container">
+                <button class="tab-btn active" data-target="school">For School Students</button>
+                <button class="tab-btn" data-target="college">For College / Job Seekers</button>
+            </div>
+
+            <!-- School Curriculum -->
+            <div id="school" class="curriculum-content active">
+                <div class="grid-intro">
+                    <h3>🚀 Start Young, Lead Tomorrow</h3>
+                    <p>Master the fundamentals and build your first real projects. From logic building to mobile apps.
+                    </p>
+                </div>
+                <div class="tech-grid">
+                    <div class="tech-item"><i class="fab fa-html5"></i> <span>HTML5</span></div>
+                    <div class="tech-item"><i class="fab fa-css3-alt"></i> <span>CSS3</span></div>
+                    <div class="tech-item"><i class="fab fa-js"></i> <span>JavaScript</span></div>
+                    <div class="tech-item"><i class="fab fa-python"></i> <span>Python</span></div>
+                    <div class="tech-item"><i class="fab fa-bootstrap"></i> <span>Bootstrap</span></div>
+                    <div class="tech-item"><i class="fas fa-database"></i> <span>SQL / PGSQL</span></div>
+                    <div class="tech-item"><i class="fab fa-flutter"></i> <span>Flutter</span></div>
+                    <div class="tech-item"><i class="fas fa-microchip"></i> <span>Computer Basics</span></div>
+                </div>
+            </div>
+
+            <!-- College Curriculum -->
+            <div id="college" class="curriculum-content">
+                <div class="grid-intro">
+                    <h3>🎓 Launch Your Full Stack Career</h3>
+                    <p>Industry-ready specialized paths to get you hired as a senior developer.</p>
+                </div>
+                <div class="courses-grid">
+                    <div class="course-card">
+                        <div class="course-icon"><i class="fab fa-python"></i></div>
+                        <div class="course-content">
+                            <h3>Python Full Stack</h3>
+                            <p>Django, FastAPI, and React. The ultimate combination for modern web apps.</p>
+                            <a href="#" class="btn-text">View Roadmap &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-icon"><i class="fab fa-windows"></i></div>
+                        <div class="course-content">
+                            <h3>.NET Full Stack</h3>
+                            <p>Enterprise-grade development with C#, .NET Core, and Azure.</p>
+                            <a href="#" class="btn-text">View Roadmap &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-icon"><i class="fab fa-react"></i></div>
+                        <div class="course-content">
+                            <h3>Frontend Specialist</h3>
+                            <p>Master React, Next.js, and advanced CSS architecture.</p>
+                            <a href="#" class="btn-text">View Roadmap &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-icon"><i class="fas fa-server"></i></div>
+                        <div class="course-content">
+                            <h3>Backend Engineering</h3>
+                            <p>Scalable architecture, API design, Node.js, and Microservices.</p>
+                            <a href="#" class="btn-text">View Roadmap &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="section features-section">
+        <div class="container feature-container">
+            <div class="feature-text">
+                <h2>Why Choose <br><span class="highlight">TechPinnacle?</span></h2>
+                <p>We bridge the gap between academic learning and industry demands. Our environment is designed to
+                    simulate a high-growth tech startup.</p>
+                <ul class="feature-list">
+                    <li><i class="fas fa-check-circle"></i> 1-on-1 Mentorship</li>
+                    <li><i class="fas fa-check-circle"></i> 24/7 Lab Access</li>
+                    <li><i class="fas fa-check-circle"></i> Lifetime Community Access</li>
+                    <li><i class="fas fa-check-circle"></i> Certification of Completion</li>
+                </ul>
+            </div>
+            <div class="feature-visual">
+                <!-- Visual representation via CSS or Image -->
+                <div class="code-block-mockup glass">
+                    <div class="window-controls">
+                        <span class="red"></span><span class="yellow"></span><span class="green"></span>
+                    </div>
+                    <code>
+                        <span class="keyword">class</span> <span class="class-name">Developer</span> {<br>
+                        &nbsp;&nbsp;<span class="keyword">constructor</span>(passion) {<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="this">this</span>.skills = [];<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="this">this</span>.passion = passion;<br>
+                        &nbsp;&nbsp;}<br>
+                        <br>
+                        &nbsp;&nbsp;<span class="function">levelUp</span>() {<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="return">return</span> <span class="string">"Welcome to TechPinnacle"</span>;<br>
+                        &nbsp;&nbsp;}<br>
+                        }
+                    </code>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="cta-box glass">
+                <h2>Ready to Start Your Journey?</h2>
+                <p>Join the next cohort of future tech leaders. Spots are limited.</p>
+                <form class="contact-form"
+                    onsubmit="event.preventDefault(); alert('Thank you for your interest! We will contact you shortly.');">
+                    <div class="input-group">
+                        <input type="email" placeholder="Enter your email address" required>
+                        <button type="submit" class="btn-primary">Get Started</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <h3>TechPinnacle_</h3>
+                <p>Building the future, one line of code at a time.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Programs</h4>
+                <a href="#">Web Development</a>
+                <a href="#">Data Science</a>
+                <a href="#">Mobile Apps</a>
+            </div>
+            <div class="footer-social">
+                <h4>Connect</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 TechPinnacle Academy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
